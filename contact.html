@@ -23,16 +23,21 @@
 
     <section class="contact">
         <h2>Contact Me</h2>
-        <form action="feedback.php" method="post" id="tswfbform" accept-charset="UTF-8">
-            <label for="tswname">Name</label> <input type="text" name="fullname" style="max-width: 100%;" id="tswname" size="39" /><br />&nbsp;<br />
-            <label for="tswemail">Email</label> <input type="text" style="max-width: 100%;" id="tswemail" name="email" size="39" /><br />&nbsp;<br />
-            
-            <label for="tswtel">Telephone</label> <input type="text" id="tswtel" style="max-width: 100%;" name="tel" size="39" /><br />&nbsp;<br />
-            <label for="tswcomments">Comments</label><br />&nbsp;<br />
-            <textarea rows="15" cols="45" name="comments" style="max-width: 100%;" id="tswcomments"></textarea>
-            <br />&nbsp;<br />
-            <input id="tswsubmit" type="submit" value="Send Feedback" />
-            </form>        
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Cell No.:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
     </section>
     
     <footer>
