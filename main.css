@@ -70,12 +70,12 @@ header nav ul li a {
     
     color: white;
     text-decoration: none;
-    font-family: 'Unica One', cursive;
+    font-family: 'Unica One';
     font-size: 1.2rem;
 }
 
 h1, h2, h3{
-    font-family: 'Unica One', cursive;
+    font-family: 'Unica One';
     color: white;
     text-align: center;
     line-height: 100px;
@@ -83,7 +83,7 @@ h1, h2, h3{
 
 
 p {
-    font-family: 'Unica One', cursive;
+    font-family: 'Unica One';
     color: white;
     text-align: center;
     line-height: 20px;
