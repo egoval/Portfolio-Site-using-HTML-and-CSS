@@ -1,0 +1,51 @@
+/* For tablet screens between 481px and 960px width */
+html, body {
+    font-size: 100%; /* Reduce font size slightly for tablets */
+}
+
+body {
+    background: linear-gradient(to right, #4E65FF , #92EFFD);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    padding: 10px 0;
+}
+
+header nav ul {
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: block; /* Stack nav items vertically */
+    margin-bottom: 10px;
+}
+
+header nav ul li a {
+    font-size: 1rem; /* Adjust font size */
+}
+
+.projects, .about, .contact {
+    padding: 15px;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column; /* Stack text and image vertically on tablet */
+    align-items: center;
+    text-align: center;
+}
+
+.project-description img {
+    max-width: 250px;
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+footer {
+    font-size: 0.9rem; /* Reduce footer font size */
+    line-height: 40px;
+}

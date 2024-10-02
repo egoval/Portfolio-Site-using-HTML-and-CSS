@@ -1,0 +1,51 @@
+/* For mobile screens up to 480px width */
+html, body {
+    font-size: 90%; /* Further reduce font size for mobile */
+}
+
+body {
+    background: linear-gradient(to bottom, #4E65FF , #92EFFD); /* Adjust background for better mobile experience */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    padding: 8px 0;
+}
+
+header nav ul {
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: block;
+    margin-bottom: 8px;
+}
+
+header nav ul li a {
+    font-size: 0.9rem; /* Adjust font size for mobile */
+}
+
+.projects, .about, .contact {
+    padding: 10px;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project-description img {
+    max-width: 200px;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+footer {
+    font-size: 0.8rem; /* Reduce footer font size for mobile */
+    line-height: 35px;
+}
