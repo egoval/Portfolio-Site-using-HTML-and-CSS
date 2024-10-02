@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="tablet.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 480px)">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="indexNOTFINAL.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Cell No.:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact: <a href="mailto:gangerdeen.brandon@ontariotechu.net">gangerdeen.brandon@ontariotechu.net</a></p>
+        <p>&copy; 2024 Brandon Gangerdeen</p>
+    </footer>
+
+</body>
+</html>
