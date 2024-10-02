@@ -1,4 +1,4 @@
-/* Global styles */
+
 html, body {
     font-size: 110%;
     height: 100%;
@@ -12,7 +12,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Minimum height of 100% of the viewport */
+    min-height: 100vh; 
     font-family: 'Work Sans', Helvetica, sans-serif;
 
 }
@@ -20,6 +20,10 @@ body {
     flex: 1;
     text-align: center;
     padding: 20px;
+}
+
+.about img{
+    max-width: 150px;
 }
 header {
     width: 100%;
@@ -38,6 +42,25 @@ header nav ul {
     text-align: center;
 }
 
+.projects article{
+    float:left
+}
+
+.project-description {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.project-description p {
+    flex: 1;
+}
+
+.project-description img {
+    max-width: 300px;
+    margin-left: 50px; 
+    height: auto; 
+}
 header nav ul li {
     display: inline;
     margin: 0 10px;
@@ -51,7 +74,7 @@ header nav ul li a {
     font-size: 1.2rem;
 }
 
-h1, h2 {
+h1, h2, h3{
     font-family: 'Unica One', cursive;
     color: white;
     text-align: center;
@@ -66,11 +89,6 @@ p {
     line-height: 20px;
 }
 
-
-section {
-    padding: 20px;
-    text-align: center;
-}
 
 footer {
     line-height: 50px;
@@ -107,7 +125,7 @@ a:hover {
     color: #1427a8;
 }
 
-/* Media Queries */
+
 @media screen and (max-width: 768px) {
     header nav ul li {
         display: block;
