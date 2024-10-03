@@ -23,7 +23,7 @@ body {
 }
 
 .article img {
-    clear: both;
+    max-width: 0px;
 }
 
 .about img{
@@ -135,22 +135,4 @@ a {
 
 a:hover {
     color: #1427a8;
-}
-
-
-@media screen and (max-width: 768px) {
-    header nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    header {
-        padding: 10px;
-    }
-
-    section {
-        padding: 10px;
-    }
 }
