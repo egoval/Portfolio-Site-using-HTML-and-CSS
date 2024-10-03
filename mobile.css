@@ -22,7 +22,9 @@ body {
     padding: 20px;
 }
 
-
+.projects article{
+    margin-right: 150;
+}
 .about img{
     max-width: 150px;
 }
