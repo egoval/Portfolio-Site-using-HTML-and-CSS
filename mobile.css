@@ -47,8 +47,6 @@ header nav ul {
 
 .project-description {
     display: flex; 
-
-    justify-content: space-between; 
 }
 
 .project-description p {
