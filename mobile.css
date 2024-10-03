@@ -22,9 +22,6 @@ body {
     padding: 20px;
 }
 
-.article img {
-    max-width: 0px;
-}
 
 .about img{
     max-width: 150px;
@@ -59,7 +56,7 @@ header nav ul {
 }
 
 .project-description img {
-    max-width: 300px;
+    max-width: 0px;
     height: auto; 
 }
 header nav ul li {
