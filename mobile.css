@@ -22,6 +22,10 @@ body {
     padding: 20px;
 }
 
+.article img {
+    clear: both;
+}
+
 .about img{
     max-width: 150px;
 }
