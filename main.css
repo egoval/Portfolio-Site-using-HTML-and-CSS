@@ -95,18 +95,18 @@ form {
     display: flex;
     flex-direction: column;
     width: 400px;
-    margin: 0 auto; /* Centers the form */
+    margin: 0 auto;
 }
 
 form label, form input, form textarea {
-    margin-bottom: 15px; /* Adds space between elements */
+    margin-bottom: 15px; 
 }
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-    width: 100%; /* Ensures the input and textarea fill the width */
+    width: 100%; 
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -114,7 +114,7 @@ textarea {
 }
 
 textarea {
-    resize: none; /* Prevents the textarea from being resized */
+    resize: none; 
 }
 
 
