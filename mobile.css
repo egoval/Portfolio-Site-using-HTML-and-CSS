@@ -25,9 +25,6 @@ body {
 .about img{
     max-width: 150px;
 }
-.projects article{
-    clear:both;
-    float:left;
     
 }
 header {
