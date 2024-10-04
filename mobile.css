@@ -109,7 +109,7 @@ footer {
 form {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 200px;
     margin: 0 auto;
 }
 
@@ -121,15 +121,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-textarea {
-    resize: none; 
+    width: 80%;
 }
 
 
