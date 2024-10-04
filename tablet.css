@@ -1,22 +1,19 @@
 
 html, body {
     font-size: 110%;
-    height: 100%;
     margin: 0;
-    padding: 0;
 }
 
 body {
 
     background: linear-gradient(to right, #4E65FF , #92EFFD);
-
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
-    font-family: 'Work Sans', Verdana, Geneva, Arial, sans-serif;;
+    font-family: 'Work Sans', Verdana, Geneva, Arial, sans-serif;
 }
 
-.about, .projects, .contact {
+.about, .projects, .contact, .header-content {
     flex: 1;
     text-align: center;
     padding: 20px;
@@ -34,7 +31,6 @@ header {
     background: rgba(0, 0, 0, 0.5);
     padding: 15px 0;
     text-align: center;
-
 }
 
 header nav ul {
@@ -119,11 +115,6 @@ textarea {
     margin-top: 100px;
     max-width: 250px;
     border-radius: 8px;
-}
-
-.header-content {
-    flex: 1;
-    text-align: center;
 }
 
 a {
