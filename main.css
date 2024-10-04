@@ -1,22 +1,19 @@
 
 html, body {
     font-size: 110%;
-    height: 100%;
     margin: 0;
-    padding: 0;
 }
 
 body {
 
     background: linear-gradient(to right, #4E65FF , #92EFFD);
-
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
-    font-family: 'Work Sans', Helvetica, sans-serif;
+    font-family: 'Work Sans', Verdana, Geneva, Arial, sans-serif;;
 
 }
-.about, .projects, .contact {
+.about, .projects, .contact, .header-content {
     flex: 1;
     text-align: center;
     padding: 20px;
@@ -25,6 +22,7 @@ body {
 .about img{
     max-width: 150px;
 }
+
 header {
     width: 100%;
     position: absolute;
@@ -33,6 +31,7 @@ header {
     background: rgba(0, 0, 0, 0.5);
     padding: 15px 0;
     text-align: center;
+    font-size: 120%;
 }
 
 header nav ul {
@@ -45,27 +44,26 @@ header nav ul {
 .projects article{
     float:left
 }
-.projects article:nth-of-type(2) {
+
+.projects article:nth-of-type(2) { /* this to adjust my projects spacing individually */
     margin-left: 150px;
 }
-.projects article:nth-of-type(1) {
+.projects article:nth-of-type(1) { /* this to adjust my projects spacing individually */
     margin-left: 100px;
 }
+
 .project-description {
     display: flex; 
     align-items: center; 
-    justify-content: space-between; 
 }
 
-.project-description p {
-    flex: 1;
-}
 
 .project-description img {
     max-width: 300px;
     margin-left: 50px; 
     height: auto; 
 }
+
 header nav ul li {
     display: inline;
     margin: 0 10px;
@@ -76,7 +74,7 @@ header nav ul li a {
     color: white;
     text-decoration: none;
     font-family: 'Unica One';
-    font-size: 1.2rem;
+
 }
 
 h1, h2, h3{
@@ -94,32 +92,6 @@ p {
     line-height: 20px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin: 0 auto;
-}
-
-form label, form input, form textarea {
-    margin-bottom: 15px; 
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
-    width: 100%; 
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-textarea {
-    resize: none; 
-}
-
 
 footer {
     line-height: 50px;
@@ -130,7 +102,29 @@ footer {
     bottom: 0;
     width: 100%;
     
+}
 
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto; 
+}
+
+form label, form input, form textarea {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+
+textarea {
+    width: 100%; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .header-content img {
@@ -141,11 +135,6 @@ footer {
     max-width: 250px;
     border-radius: 8px;
 }
-.header-content {
-    flex: 1;
-    text-align: center;
-
-}
 
 a {
     color: #4E65FF;
@@ -155,5 +144,3 @@ a {
 a:hover {
     color: #1427a8;
 }
-
-
