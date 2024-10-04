@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
-    font-family: 'Work Sans', Verdana, Geneva, Arial, sans-serif;;
+    font-family: 'Work Sans', Verdana, Geneva, Arial, sans-serif;
 }
 
 .about, .projects, .contact, .header-content {
