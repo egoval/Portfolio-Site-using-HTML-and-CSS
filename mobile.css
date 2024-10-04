@@ -101,7 +101,7 @@ form {
     margin: 0 auto;
 }
 
-form label, form input, form textarea {
+form label, form input, form textarea, form button {
     margin-bottom: 15px; 
 }
 
