@@ -104,16 +104,32 @@ footer {
 
 }
 
-.form-group {
-    
-    width: 500px;
-    clear: both;
-  }
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+}
 
-.form-group input {
-    width: 100%;
-    clear: both;
-  }
+form label, form input, form textarea {
+    margin-bottom: 15px; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none; 
+}
+
 
 .header-content img {
     display: block;
