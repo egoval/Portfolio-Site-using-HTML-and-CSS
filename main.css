@@ -91,6 +91,32 @@ p {
     line-height: 20px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto; /* Centers the form */
+}
+
+form label, form input, form textarea {
+    margin-bottom: 15px; /* Adds space between elements */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%; /* Ensures the input and textarea fill the width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none; /* Prevents the textarea from being resized */
+}
+
 
 footer {
     line-height: 50px;
