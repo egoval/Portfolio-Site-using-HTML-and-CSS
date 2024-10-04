@@ -25,6 +25,11 @@ body {
 .about img{
     max-width: 150px;
 }
+.projects article{
+    clear:both;
+    float:left;
+    
+}
 header {
     width: 100%;
     position: absolute;
