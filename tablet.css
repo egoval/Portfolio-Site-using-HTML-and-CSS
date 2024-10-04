@@ -1,51 +1,139 @@
-/* For tablet screens between 481px and 960px width */
+
 html, body {
-    font-size: 100%; /* Reduce font size slightly for tablets */
+    font-size: 110%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
+
     background: linear-gradient(to right, #4E65FF , #92EFFD);
+
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100vh; 
+    font-family: 'Work Sans', Verdana, Geneva, Arial, sans-serif;;
+
+}
+.about, .projects, .contact {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
 }
 
+.about img{
+    max-width: 150px;
+}
 header {
-    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+    text-align: center;
+    font-size: 50%;
 }
 
 header nav ul {
+    list-style: none;
+    margin: 0 auto;
     padding: 0;
     text-align: center;
 }
 
-header nav ul li {
-    display: block; /* Stack nav items vertically */
-    margin-bottom: 10px;
-}
-
-header nav ul li a {
-    font-size: 1rem; /* Adjust font size */
-}
-
-.projects, .about, .contact {
-    padding: 15px;
-}
 
 .project-description {
-    display: flex;
-    flex-direction: column; /* Stack text and image vertically on tablet */
-    align-items: center;
-    text-align: center;
+    display: flex; 
+}
+
+.project-description p {
+    flex: 1;
 }
 
 .project-description img {
-    max-width: 250px;
-    margin-left: 0;
-    margin-top: 15px;
+    max-width: 0px;
+    height: auto; 
+}
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
 }
 
+header nav ul li a {
+    
+    color: white;
+    text-decoration: none;
+    font-family: 'Unica One';
+    font-size: 1.2rem;
+}
+
+h1, h2{
+    font-family: 'Unica One';
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+h3{
+    font-family: 'Unica One';
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+p {
+    font-family: 'Unica One';
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+
+
 footer {
-    font-size: 0.9rem; /* Reduce footer font size */
-    line-height: 40px;
+    line-height: 50px;
+    color: white;
+    background: linear-gradient(45deg, #6dd5ed, #ffbc4b);
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+
+}
+
+.form-group {
+    
+    width: 500px;
+    clear: both;
+  }
+
+.form-group input {
+    width: 100%;
+    clear: both;
+  }
+
+.header-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+.header-content {
+    flex: 1;
+    text-align: center;
+}
+
+a {
+    color: #4E65FF;
+    transition: color 0.2s ease-in;
+}
+
+a:hover {
+    color: #1427a8;
 }
