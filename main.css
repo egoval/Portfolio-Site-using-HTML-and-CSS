@@ -46,7 +46,10 @@ header nav ul {
     float:left
 }
 .projects article:nth-of-type(2) {
-    margin-left: 150px;
+    margin-left: 250px;
+}
+.projects article:nth-of-type(1) {
+    margin-left: 100px;
 }
 .project-description {
     display: flex; 
